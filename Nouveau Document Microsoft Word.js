@@ -1,3 +1,4 @@
+//***PROB1 */
 function duplicate(arr1, arr2, sum) {
   var arr1 = [3, 1, 7, 9];
   var arr2 = [2, 4, 1, 9, 3];
@@ -28,3 +29,21 @@ function duplicate(arr1, arr2, sum) {
   }
 }
 return sum;
+
+//******** PROB 2*//
+
+PROCEDURE dot_product(ps,v1,v2)
+VAR
+    ps = 0;
+BEGIN
+   for (i=0;i<(v1.length-1);i++)
+   {
+    for (j=0;j<(v2.length-1);j++)
+    ps = ps + (v1[i]*v2[j])
+   }
+   if (ps==0){
+    print("v1 and v2 are orthogonal")
+   } else {
+    print ("v1 and v2 are not orthogonal")
+   }
+END
