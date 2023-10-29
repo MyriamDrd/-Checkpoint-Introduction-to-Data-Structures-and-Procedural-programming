@@ -25,6 +25,6 @@ function duplicate(arr1, arr2, sum) {
   }
   if (checkduplicate == false) {
     sum = sum + arr1[k];
-    console.log(sum);
   }
 }
+return sum;
